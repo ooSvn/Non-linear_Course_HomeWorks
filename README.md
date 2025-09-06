@@ -53,7 +53,7 @@ This script implements the **Cholesky Factorization** method from scratch and co
 
 ---
 
-### `gradient_newton_methods.py`
+### `Gradient_Descent_&_Newton_Methods.py`
 
 This script implements and compares two optimization algorithms for minimizing quadratic functions.
 
