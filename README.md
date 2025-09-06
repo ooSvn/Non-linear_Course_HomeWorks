@@ -98,7 +98,7 @@ This script implements and compares two optimization algorithms for minimizing q
 
 ---
 
-**File: `Data_Fitting_&_Denoising.py`**
+### `Data_Fitting_&_Denoising.py`
 
 **Description:**
 This file contains implementations for **image denoising** and **data fitting** tasks using **Regularized Least Squares (RLS)** and **polynomial regression**.
