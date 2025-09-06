@@ -96,4 +96,28 @@ This script implements and compares two optimization algorithms for minimizing q
 
 ---
 
+---
 
+**File: `Data_Fitting_&_Denoising.py`**
+
+**Description:**
+This file contains implementations for **image denoising** and **data fitting** tasks using **Regularized Least Squares (RLS)** and **polynomial regression**.
+
+* **Q1 – Image Denoising:**
+
+  * Implements RLS-based denoising on grayscale images.
+  * Applies different regularization parameters (λ) and multi-run strategies.
+  * Includes analysis of method suitability, performance, and weaknesses.
+
+* **Q2 – Data Fitting:**
+
+  * Polynomial fitting on several datasets.
+  * Integrates RLS-based denoising to improve fitting accuracy.
+  * Evaluates error and demonstrates effect of noise and outliers.
+
+**Dependencies:** `numpy`, `matplotlib`, `opencv-python`
+
+**Usage:**
+Run the file to visualize denoised images, fitted curves, and error analysis for different datasets.
+
+---
