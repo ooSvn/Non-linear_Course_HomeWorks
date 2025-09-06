@@ -22,3 +22,36 @@ This script contains three optimization problems formulated and solved using **C
   * Output: Optimal investment distribution, total return, maximized utility value, and portfolio variance.
 
 ---
+
+
+Nice 👍 you’ve got a **custom Cholesky Factorization** implementation here along with a solver for linear equations.
+Here’s how I’d add this file’s explanation to your README:
+
+---
+
+### `cholesky_factorization.py`
+
+This script implements the **Cholesky Factorization** method from scratch and compares it with NumPy’s built-in function.
+
+* **`choleskyFactorization(A)`**
+
+  * Recursively computes the lower triangular matrix $L$ such that $A = L L^T$.
+  * Uses matrix partitioning and updates submatrices.
+
+* **`MSE(x, y)`**
+
+  * Calculates the Mean Squared Error (MSE) between two matrices (used to compare custom vs. NumPy implementation).
+
+* **Example Usage**
+
+  * Performs Cholesky factorization on test matrices.
+  * Prints the custom factorization vs. NumPy’s result along with the MSE.
+
+* **Equation Solving (`solveEquation`)**
+
+  * Uses the Cholesky factorization to solve linear equations $A x = b$.
+  * Back-substitution with $L$ and $L^T$ is applied.
+  * Example provided with a $3 \times 3$ system.
+
+---
+
