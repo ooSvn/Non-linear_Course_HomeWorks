@@ -1,5 +1,5 @@
 
-### `Optimization_problem.py`
+### `Optimization_problem`
 
 This script contains three optimization problems formulated and solved using **CVXPY**:
 
@@ -25,7 +25,7 @@ This script contains three optimization problems formulated and solved using **C
 
 ---
 
-### `cholesky_factorization.py`
+### `Cholesky_Factorization`
 
 This script implements the **Cholesky Factorization** method from scratch and compares it with NumPy’s built-in function.
 
@@ -53,7 +53,7 @@ This script implements the **Cholesky Factorization** method from scratch and co
 
 ---
 
-### `Gradient_Descent_&_Newton_Methods.py`
+### `Gradient_Descent_&_Newton_Methods`
 
 This script implements and compares two optimization algorithms for minimizing quadratic functions.
 
@@ -98,7 +98,7 @@ This script implements and compares two optimization algorithms for minimizing q
 
 ---
 
-### `Data_Fitting_&_Denoising.py`
+### `Data_Fitting_&_Denoising`
 
 **Description:**
 This file contains implementations for **image denoising** and **data fitting** tasks using **Regularized Least Squares (RLS)** and **polynomial regression**.
