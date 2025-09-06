@@ -115,9 +115,4 @@ This file contains implementations for **image denoising** and **data fitting** 
   * Integrates RLS-based denoising to improve fitting accuracy.
   * Evaluates error and demonstrates effect of noise and outliers.
 
-**Dependencies:** `numpy`, `matplotlib`, `opencv-python`
-
-**Usage:**
-Run the file to visualize denoised images, fitted curves, and error analysis for different datasets.
-
 ---
