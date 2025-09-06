@@ -23,10 +23,6 @@ This script contains three optimization problems formulated and solved using **C
 
 ---
 
-
-Nice 👍 you’ve got a **custom Cholesky Factorization** implementation here along with a solver for linear equations.
-Here’s how I’d add this file’s explanation to your README:
-
 ---
 
 ### `cholesky_factorization.py`
@@ -54,4 +50,50 @@ This script implements the **Cholesky Factorization** method from scratch and co
   * Example provided with a $3 \times 3$ system.
 
 ---
+
+---
+
+### `gradient_newton_methods.py`
+
+This script implements and compares two optimization algorithms for minimizing quadratic functions.
+
+#### **1. Gradient Descent with Backtracking Line Search**
+
+* **Functions**:
+
+  * `grad_calculator(coeff, x)` → computes gradient of $f(x, y) = a x^2 + b y^2$.
+  * `f(coeff, x)` → evaluates the quadratic function.
+  * `grad_BT(coeffs, x_0, s, beta, alpha, tolerance)` → gradient descent with backtracking.
+
+* **Algorithm**:
+
+  * Starts from an initial guess.
+  * Adjusts step size using the Armijo condition.
+  * Iterates until gradient norm is below tolerance.
+
+* **Experiment**:
+
+  * Analyzes effect of the **y-coefficient** on the number of iterations.
+  * Visualization shows that balanced curvatures improve convergence speed.
+
+#### **2. Pure Newton’s Method**
+
+* **Functions**:
+
+  * `hessian_calculator(coeffs)` → computes Hessian matrix.
+  * `pure_newton(coeffs, x_0, tolerance)` → Newton’s method for quadratic optimization.
+
+* **Algorithm**:
+
+  * Uses exact curvature information (Hessian inverse).
+  * Updates solution in a single step for quadratic functions.
+  * Number of iterations remains stable regardless of coefficient scaling.
+
+* **Experiment**:
+
+  * Varies the coefficient of $y$ and plots number of iterations.
+  * Demonstrates the robustness of Newton’s method for quadratic problems.
+
+---
+
 
